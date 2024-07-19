@@ -1,4 +1,4 @@
-from rattle import logging as rlog
+from rattle import log as rlog
 import logging
 import logging.config
 
