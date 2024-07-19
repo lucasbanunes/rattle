@@ -20,13 +20,6 @@ DEFAULT_LOGGING_CONFIG = {
             "formatter": "default",
             "stream": "ext://sys.stdout"
         },
-        "file": {
-            "class": "logging.FileHandler",
-            "level": "DEBUG",
-            "formatter": "default",
-            "filename": "rattle.log",
-            "mode": "a"
-        }
     },
     "loggers": {
         "root": {
