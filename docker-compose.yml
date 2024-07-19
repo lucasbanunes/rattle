@@ -1,0 +1,14 @@
+name: rattle
+version: '1.0'
+services:
+  python:    
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: lucasbanunes/rattle
+    container_name: rattle-python
+    volumes:
+      - ./../:/root/
+    tty: true
+    env_file:
+      - .env
